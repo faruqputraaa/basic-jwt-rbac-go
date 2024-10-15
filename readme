@@ -1,0 +1,15 @@
+1. Isi Data User
+Jalankan POST /fill-user untuk membuat data user awal.
+
+2. Login untuk Mendapatkan Token
+Kirimkan email dan password ke POST /login untuk menerima token JWT.
+
+3. Gunakan Token JWT 
+    name = Authorization
+    value = "Bearer <token>"
+
+4. CRUD User (Role Admin)
+Hanya Admin dapat melakukan CRUD User di endpoint /users.
+
+5. CRUD Todo (Role Editor)
+Editor dapat mengelola Todo di endpoint /todos
